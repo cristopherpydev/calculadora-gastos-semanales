@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos semanales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Calculadora de gastos semanales
+    </h1>
+    <p><b>Instrucciones</b>: Completa cada campo con tus gastos semanales y a continuación pulsa el botón "Procesar".</p>
+    <div class="formulario">
+    <form action="back.php" method="post">
+        <label for="lunes">Lunes</label>
+        <input type="text" name="lunes" id="lun" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <label for="lunes">Martes</label>
+        <input type="text" name="martes" id="mar" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <label for="lunes">Miércoles</label>
+        <input type="text" name="miercoles" id="mie" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <label for="lunes">Jueves</label>
+        <input type="text" name="jueves" id="ju" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <label for="lunes">Viernes</label>
+        <input type="text" name="viernes" id="vi" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <label for="lunes">Sábado</label>
+        <input type="text" name="sabado" id="sa" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <label for="lunes">Domingo</label>
+        <input type="text" name="domingo" id="do" maxlength="7" placeholder="Ejemplo: 24.5" required>
+        <br>
+        <br>
+        <button type="submit" name="Procesar">Procesar</button>
+        </div>
+        <p>La información se procesa para tener analíticas concluyentes de varios parámetros económicos que te pueden ayudar para controlar mejor tus gastos.</p>
+    </form>
+</body>
+</html>
