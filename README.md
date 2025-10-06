@@ -3,3 +3,4 @@ Proyecto autoevaluativo de conocimientos fundamentales utilizando el lenguaje PH
 
 # updates a futuro
 Utilizar validaciones previas al procesamiento de datos -> acotamientos empleando expresiones regulares validadoras
+- Utilizar también una dirección url hacia el fichero anterior en el directorio contenedor del proyecto. 
